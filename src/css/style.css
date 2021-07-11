@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 229, 241);
+}
+
+.hidden {
+    display: none;
+}
+
+.popover {
+    position: absolute;
+    background-color: #fff;
+    border: solid 1px rgb(180, 178, 178);
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    z-index: 999;
+}
+
+.popover-title {
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: solid 1px rgb(180, 178, 178);
+}
+
+.popover-content {
+    padding: 10px;
+}
+
+.button-box {
+    position: relative;
+    width: 300px;
+    margin: 200px auto;
+}
+
+.toggle-button {
+    position: relative;
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.toggle-button :focus {
+    outline: none;
+}
